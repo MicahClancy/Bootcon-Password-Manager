@@ -63,7 +63,6 @@ def secondary_loop():
 #this function looks up the password based off of a username inputed in the secondary loop
 def password_lookup(user):
      for userPair in masterList:
-        #print(userPair['username'])
         if userPair['username'] == user:
             print(userPair['password'])
 
